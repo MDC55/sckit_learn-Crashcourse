@@ -55,9 +55,6 @@ boston = fetch_openml(name="boston", as_frame=False)
 X, y = boston.data, boston.target
 ```
 
-## Contributing / Commits
-- Keep notebook edits minimal and add a markdown cell describing changes (e.g., dataset migration).
-- Example commit message: `fix: replace load_boston with fetch_california_housing` or `chore: add README and .gitignore`.
 
 ## References
-- Notebook reference link included at end of notebook: https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
+-  https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
